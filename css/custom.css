@@ -1,0 +1,200 @@
+.main-heading{
+	text-align: center;
+    font-size: 23px;
+    background: #2196F3;
+    padding: 17px;
+    margin: 0;
+    font-weight: 600;
+    color: #ffffff;
+    border: 1px solid rgba(51, 51, 51, 0.18);
+	box-shadow: 3px 0px 3px 5px rgba(51, 51, 51, 0.42);
+	}
+.category{
+	border: 1px solid #333;
+    padding: 14%;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    background: #ff0000;
+    box-shadow: 3px 3px 3px 4px rgba(51, 51, 51, 0.22);
+    font-size: 30px;
+	}
+.input_feedbacks{
+	border-radius: 5px;
+	border: 1px solid #333;
+    padding: 20px;
+    margin: 10% 0;
+	width: 100%;
+    text-align: center;
+	color: #fff;
+    background: #ff0000;
+	box-shadow: 3px 3px 3px 4px rgba(51, 51, 51, 0.22);
+	}
+.sub-category{
+	border: 1px solid rgba(51, 51, 51, 0.38);
+    padding: 10px 0;
+    margin: 3% 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: #ff0000;
+    box-shadow: 3px 3px 3px 4px rgba(51, 51, 51, 0.22);
+	}
+.sub-in-category{
+	border: 1px solid rgba(51, 51, 51, 0.38);
+    padding: 10px 0;
+    margin: 2% 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: #ff0000;
+    box-shadow: 3px 3px 3px 4px rgba(51, 51, 51, 0.22);
+	}
+.toTop{
+	border-radius: 5px;
+    border: 1px solid rgba(51, 51, 51, 0.38);
+    padding: 10px 0;
+    margin: 2% 0;
+    width: 25%;
+    text-align: center;
+    color: #fff;
+    background: #2196f3;
+    position: fixed;
+    left: -16px;
+    top: 0;
+    z-index: 1;
+	}
+.toTopBelow{
+	border-radius: 5px;
+    border: 1px solid rgba(51, 51, 51, 0.38);
+    padding: 10px 0;
+    margin: 2% 0;
+    width: 25%;
+    text-align: center;
+    color: #fff;
+    background: #2196f3;
+    position: fixed;
+    left: -16px;
+    top: 56px;
+    z-index: 1;
+	}
+.alphabet-category{
+	border-radius: 5px;
+	border: 1px solid rgba(51, 51, 51, 0.38);
+    padding: 10px 0;
+    margin: 2% 0;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    box-shadow: 1px 1px 1px 1px #333;
+	border: 4px solid #337ab7;
+	}
+.category :focus{
+	border: none;
+	}
+footer{
+	border: 1px solid rgba(51, 51, 51, 0.08);
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+	}
+.float-left{float:left; color:#fff;}
+.sub-icons{margin-right: 12px;font-size: 15px;}
+.margin-top-10{padding-top:10px;}
+.full-width{width:100%;}
+.backDiv{position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(51, 51, 51, 0.54);
+    color: #fff;
+    z-index: 1;}
+.tollDiv{position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    font-size: 19px;
+    background: #fff;
+    color: #333;
+    padding: 5px;
+    border-radius: 4px;
+    min-width: 75%;
+	padding-bottom: 50px;}
+.alphaDiv{position: absolute;
+    top: 10%;
+    left: 3%;
+    right: 5%;
+    font-size: 19px;
+    background: #fff;
+    color: #333;
+    padding: 5px;
+    border-radius: 4px;}
+.tollHead{background: cadetblue;
+    color: #fff;
+	margin-bottom: 50px;}
+.alphaHead{background: cadetblue;
+    color: #fff;
+	padding: 5px 0;
+	margin-bottom: 10px;}
+.closeToll{position: absolute;
+    right: -15px;
+    top: -19px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;}
+.container{background: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	min-height: 100%;
+	position:absolute;}	
+header {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+.container .text-center:last-child{
+    padding-bottom:100px;
+}
+i.fa.fa-arrow-circle-left.float-left {
+    font-size: 50px;
+    margin-top: -13px;
+}
+.feedback{background: red;
+    border: none;
+    color: #fff;
+    width: 98%;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 7px;
+    text-transform: capitalize;
+    box-shadow: 1px 1px 1px 1px rgba(51, 51, 51, 0.5);
+	margin-bottom:100px;
+}
+textarea{border-radius: 7px;width:100%;}
+.alpha {
+    border: 1px solid rgba(51, 51, 51, 0.44);
+    border-radius: 2px;
+    margin-bottom: 7px;
+    color: #333;
+}
+i.fa.fa-arrow-circle-o-up {
+    font-size: 19px;
+}
+.feedback_error{ width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+	text-align:center;}
+.pad-0{
+	padding:0;
+}
+.blue-bg{background: blueviolet;}

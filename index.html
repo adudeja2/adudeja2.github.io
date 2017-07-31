@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://use.fontawesome.com/e203475304.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/custom.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/custom.js"></script>
+<script>
+ $(function(){
+		  $("#includedCategory").load("category.html"); 
+		  $("#includedName").load("name.html"); 
+		  $("#includedAirlines").load("category/airlines.html"); 
+		  $("#includedAutomobile").load("category/automobile.html"); 
+		  $("#includedBank").load("category/bank.html"); 
+		  $("#includedDTH").load("category/dth.html"); 
+		  $("#includedMobile").load("category/mobile.html"); 
+		  $("#includedOperator").load("category/operators.html"); 
+		  $("#includedCC").load("category/cc.html"); 
+		  $("#includedEdu").load("category/education.html"); 
+		  $("#includedHealth").load("category/healthcare.html"); 
+		  $("#includedHome").load("category/home.html"); 
+		  $("#includedCPM").load("category/pm.html"); 
+		  $("#includedPC").load("category/pc.html"); 
+		  $("#includedPolicy").load("category/policy.html"); 
+		  $("#includedFood").load("category/food.html"); 
+		  $("#includedRecharge").load("category/recharge.html"); 
+		  $("#includedShop").load("category/shopping.html"); 
+		  $("#includedGovt").load("category/govt.html"); 
+			});
+</script>
+<title>TOLLFREE</title>
+</head>
+<body>
+	<div id="index-pick">
+	<header>
+		<h1 class="main-heading"><i class="fa fa-phone-square float-left" aria-hidden="true"></i>Welcome To Toll Free</h1>
+	</header>
+	<div class="container pad-0">
+		<div class="col-md-12 col-xs-12 col-sm-12 text-center pad-0">
+			<a onclick="showCategory();"><label class="category"><i class="fa fa-folder-open-o" aria-hidden="true"></i><br>Find Category Wise</label></a>
+		</div>
+		<div class="col-md-12 col-xs-12 col-sm-12 text-center pad-0">
+			<a onclick="showName();"><label class="blue-bg category"><i class="fa fa-sort-alpha-asc" aria-hidden="true"></i><br>Find Name Wise</label></a>
+		</div>
+	</div>
+	</div>
+	<div hidden id="includedCategory"></div>
+	<div hidden id="includedName"></div>
+	<div hidden id="includedBank"></div>
+	<div hidden id="includedAutomobile"></div>
+	<div hidden id="includedCC"></div>
+	<div hidden id="includedCPM"></div>
+	<div hidden id="includedDTH"></div>
+	<div hidden id="includedPolicy"></div>
+	<div hidden id="includedShop"></div>
+	<div hidden id="includedAirlines"></div>
+	<div hidden id="includedRecharge"></div>
+	<div hidden id="includedEdu"></div>
+	<div hidden id="includedFood"></div>
+	<div hidden id="includedHealth"></div>
+	<div hidden id="includedHome"></div>
+	<div hidden id="includedMobile"></div>
+	<div hidden id="includedOperator"></div>
+	<div hidden id="includedPC"></div>
+	<div hidden id="includedGovt"></div>
+</body>
+</html>
